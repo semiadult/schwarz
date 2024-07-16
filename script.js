@@ -43,10 +43,10 @@ const quotes = {
     "fische": "Am Ende zählt nicht, wie viele Atemzüge wir gemacht haben, sondern wie viele Momente uns den Atem geraubt haben."
 };
 
-const randomNotes = [
+const randomNotes = [ 
     "Warum zum Arzt gehen, wenn Selbstdiagnosen so viel spannender sind?",
     "Koffein und Stress sind die perfekte Mischung für ein kurzes, aber spannendes Leben.",
-    "Nur noch ein Drink, sagte jeder, der nie wieder aufwachte",
+    "Warum auf die Leber achten? Es gibt zwei davon, oder?",
     "Warum gesund bleiben? Die Erde ist überbevölkert.",
     "Sport ist Mord – also entspann dich doch lieber mal.",
     "Gemüse? Du setzt wohl lieber auf Konservierungsstoffe.",
