@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>An Tagen des Humors mal' ich schwarz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>An Tagen des Humors mal' ich schwarz</h1>
+    <div id="start-message">Drücke Leertaste, um herauszufinden wann du sterben wirst</div>
+    <div id="input-section" class="hidden">
+        <label for="birthdate"></label>
+        <input type="date" id="birthdate">
+        <button id="fortune-button" onclick="calculateDeathDate()">Sag mir mein Schicksal</button>
+        <button id="reload-button" onclick="reloadPage()">&#8634</button>
+    </div>
+    <div id="death-date" class="hidden"></div>
+    <div id="card-container" class="card-container hidden">
+        <div class="card">
+            <div id="skull-container">
+                <img id="skull" src="skull.png" alt="Skull icon">
+            </div>
+            <div class="front">
+                <div id="canvas-container">
+                    <canvas id="canvas-front" width="350" height="350"></canvas>
+                </div>
+                <div id="result"></div>
+            </div>
+            <div class="back">
+                <div id="canvas-container">
+                    <canvas id="canvas-back" width="350" height="350"></canvas>
+                </div>
+                <div id="quote"></div>
+            </div>
+        </div>
+    </div>
+
+    <svg class="trail" viewBox="0 0 1 1">
+      <path d="" />
+    </svg>
+    
+    <script src="script.js"></script>
+</body>
+</html>
