@@ -44,18 +44,18 @@ const quotes = {
 };
 
 const randomNotes = [
-    "Überfordere dich nicht mit zu vielen Verantwortungen ohne Pausen.",
-    "Vernachlässige nicht Ruhe und Selbstfürsorge im Streben nach beruflichem Erfolg.",
-    "Sei achtsam bei Substanzen oder Verhaltensweisen, die zur Abhängigkeit führen können.",
-    "Halte deine Gefühle nicht zurück; kommuniziere offen.",
-    "Vermeide es, in der Vergangenheit zu leben, und lerne, dir selbst zu vergeben.",
-    "Setze dir erreichbare Ziele und sei freundlich zu dir selbst.",
-    "Suche nicht die Zustimmung anderer; schätze deinen eigenen Selbstwert.",
-    "Halte Kontakte zu Freunden und Familie; isoliere dich nicht.",
-    "Priorisiere nicht Besitz über bedeutsame Erfahrungen und Beziehungen.",
-    "Umgebe dich mit Positivität und lasse negative Gedanken nicht überhand nehmen.",
-    "Schiebe wichtige Aufgaben und Verantwortungen nicht auf.",
-    "Lasse Groll los und übe Vergebung."
+    "Warum zum Arzt gehen, wenn Selbstdiagnosen so viel spannender sind?",
+    "Koffein und Stress sind die perfekte Mischung für ein kurzes, aber spannendes Leben.",
+    "Nur noch ein Drink, sagte jeder, der nie wieder aufwachte",
+    "Warum gesund bleiben? Die Erde ist überbevölkert.",
+    "Sport ist Mord – also entspann dich doch lieber mal.",
+    "Gemüse? Du setzt wohl lieber auf Konservierungsstoffe.",
+    "Zu viele Vitamine machen nur unnötig alt.",
+    "Vorsicht ist die Mutter der Porzellankiste - aber wer will schon aus Porzellan sein?",
+    "Nur die Guten sterben jung – also keine Sorge!",
+    "Man sagt, wer rastet, der rostet – du sagst, wer rastet, lebt einfach gemütlicher.",
+    "Ein gesunder Lebensstil mag die Jahre verlängern, aber Genuss verleiht ihnen Tiefe.",
+    "Warum der ewige Fitnessstress? Der wahre Marathon ist das Leben selbst."
 ];
 
 document.addEventListener('keydown', function(event) {
@@ -91,7 +91,7 @@ function calculateDeathDate() {
         document.getElementById('skull-container').style.display = 'none';
         clearCanvas('canvas-front');
         clearCanvas('canvas-back');
-        const randomYears = Math.floor(Math.random() * 40) + 50; // Random years between 50 and 90
+        const randomYears = Math.floor(Math.random() * 40) + 30; // Random years between 50 and 90
         displayResult(`Du wirst im Alter von ${randomYears} Jahren sterben.`, birthdate);
         document.querySelector('.card').classList.remove('loading');
     }, 2000);
